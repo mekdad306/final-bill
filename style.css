@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    background-color: aqua;
+    color: black;
+    align-items: center;
+    padding: 10px 8px;
+}
+.brand{
+    margin: 0;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+nav ul li{
+    margin: 0;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
